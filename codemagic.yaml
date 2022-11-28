@@ -4,4 +4,4 @@ workflows:
       - name: Fetch dependencies
         script: |
           bash <(curl -Ls https://install.tuist.io)
-          tuist fetch
+          tuist dependencies fetch
